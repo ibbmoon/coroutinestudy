@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">rss.cnn.com/rss/cnn_topstories.rss</domain>
+        <domain includeSubdomains="true">http://feeds.foxnews.com/foxnews/politics?format=xml</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">www.npr.org/rss/rss.php?id=1001</domain>
+    </domain-config>
+</network-security-config>
